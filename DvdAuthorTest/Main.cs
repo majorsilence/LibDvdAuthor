@@ -22,7 +22,7 @@ namespace DvdAuthorTest
 			a.AddTitle(b.GetTitle());
 			a.AddTitle(c.GetTitle());
 			
-			a.Save("/home/peter/Desktop/test.xml");
+			a.Save(@"C:\Documents and Settings\Peter\Desktop\test.xml");
 			
 			Console.WriteLine ("Hello World!");
 		}
